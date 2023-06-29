@@ -1,0 +1,154 @@
+*{
+  color:#283C45;
+  /* background-color:#D0D1CE; */
+}
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:#F0F0F0;
+  box-shadow: 1px 1px 10px #F5F3EF;
+}
+.form-container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color:#F0F0F0;
+  box-shadow: 1px 1px 10px #F5F3EF;
+}
+.form-group .form-control1{
+  height:40px;
+  width:250px;
+  border-radius:5px;
+  margin-top:10px;
+  border-color:rgb(150,223,255);
+  box-shadow: 1px 1px 10px #F5F3EF;
+  border: .5px  #F5F3EF;
+  outline:none;
+}
+.form-control2{
+  width:420px;
+  height:40px;
+  border-radius:5px;
+  margin-left:10px;
+  margin-top:10px;
+  box-shadow: 1px 1px 10px #F5F3EF;
+  border: .5px  #F5F3EF;
+  outline:none;
+}
+.form-control3{
+  width:50px;
+  height:45px;
+  border-radius:5px;
+  box-shadow: 1px 1px 10px #F5F3EF;
+  border: .5px  #F5F3EF;
+  outline:none;
+}
+.form-control4{
+  width:200px;
+  height:40px;
+  border-radius:5px;
+  margin-left:0px;
+  box-shadow: 1px 1px 10px #F5F3EF;
+  border: .5px  #F5F3EF;
+  outline:none;
+}
+.form-control{
+  margin:20px 5px;
+  width:200px;
+  height:40px;
+  border-radius:5px;
+  box-shadow: 1px 1px 10px #F5F3EF;
+  border: .5px  #F5F3EF;
+  outline:none;
+}
+.textarea{
+  width:690px;
+  height:70px;
+  box-shadow: 1px 1px 10px #F5F3EF;
+  border: .5px  #F5F3EF;
+  outline:none;
+}
+input[type='checkbox'] {
+  accent-color: green;
+  height:18px;
+  width:18px;
+}
+.btn-primary{
+  width:200px;
+  height:40px;
+  background-color:rgb(255,75,45);
+  border-radius:5px;
+  color:white;
+  border-color:orange;
+  cursor:pointer;
+  box-shadow: 1px 1px 5px rgb(255,75,45);
+  border: .5px  rgb(255,75,45);
+}
+.btn-primary:hover{
+  background-color:rgb(224,66,40);
+}
+#closeButton {
+  font-family:"Century Gothic",Verdana,sans-serif;
+  position: absolute;
+  top: 2px;
+  right: 360px;
+  background: #D0D1CE;
+  color: red;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  border-color:red;
+}
+#closeButton:hover{
+  background-color:red;
+  color:white;
+}
+
+@media (max-width: 600px) {
+  .form-control,
+  .form-control1,
+  .form-control2,
+  .form-control4,
+  .textarea,
+  .btn-primary {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 900px) {
+  .form-control,
+  .form-control1,
+  .form-control2,
+  .form-control4,
+  .textarea,
+  .btn-primary {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 600px) {
+  #closeButton {
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 22px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 900px) {
+  #closeButton {
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 22px;
+    font-size: 12px;
+  }
+}
